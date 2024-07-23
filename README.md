@@ -4,7 +4,7 @@ For a detailed video recording of the entire workflow of continuous delivery (CD
 
 ## Project Overview
 
-I developed an innovative web application aimed at analyzing student performance using advanced machine learning techniques. This project was an exciting blend of data science, web development, and cloud deployment, resulting in a powerful tool for educational insights.
+I developed an innovative web application aimed at analyzing student performance using machine learning techniques. This project was an exciting blend of data science, web development, and cloud deployment, resulting in a powerful tool for educational insights.
 
 ## Project Highlights
 
@@ -25,13 +25,9 @@ I developed an innovative web application aimed at analyzing student performance
 - AWS Elastic Beanstalk
 - AWS CodePipeline
 
-## Why This Project Stands Out
-
-This project demonstrates my ability to create end-to-end solutions that not only leverage cutting-edge machine learning techniques but also ensure seamless integration and deployment in a cloud environment. It highlights my proficiency in managing data pipelines, developing web applications, and implementing continuous delivery practices.
-
 ## Data Preprocessing
 
-The dataset includes various features related to student performance. Data preprocessing steps are documented in the `notebooks/data_preprocessing.ipynb` notebook. This includes handling missing values, feature engineering, and data normalization.
+The dataset includes various features related to student performance. This includes handling missing values, feature engineering, and data normalization.
 
 ## Model Training
 
@@ -45,12 +41,11 @@ The backend is developed using Flask. The `application.py` file contains the Fla
 
 - **AWS Elastic Beanstalk Deployment:**
     - Create a new Elastic Beanstalk environment.
-    - Deploy the Flask application using the AWS Management Console or AWS CLI.
 
 - **AWS CodePipeline Setup:**
     - Create a new pipeline in AWS CodePipeline.
-    - Connect the pipeline to your GitHub repository.
-    - Configure the pipeline to deploy to AWS Elastic Beanstalk upon each commit to the master branch.
+    - Connect the pipeline to GitHub repository.
+    - Configure the pipeline to deploy to AWS Elastic Beanstalk upon each commit to the master branch of GitHub.
 
 ## Conclusion
 
