@@ -120,5 +120,4 @@ The **HTML templates** for the frontend are located in the `templates/` director
 
 ---
 
-## 📂 **File Structure**
 
